@@ -1,0 +1,21 @@
+{
+    "name": "vlad-planet/yii2-user",
+    "description": "User Profile module for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","user","profile"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bashlykov Vladislav",
+            "email": "vlad-planet@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vladplanet\\user\\": ""
+        }
+    }
+}
