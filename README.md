@@ -22,6 +22,13 @@ or add
 to the require section of your `composer.json` file.
 
 
+Configurations
+-----------------------------
+    'user' => [
+            'class' => vladplanet\user\Module::class,
+        ],
+
+
 Usage
 -----
 
