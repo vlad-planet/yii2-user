@@ -24,7 +24,8 @@ to the require section of your `composer.json` file.
 
 Configurations
 -----------------------------
-    'user' => [
+    'modules' => [
+        'user' => [
             'class' => vladplanet\user\Module::class,
         ],
 
